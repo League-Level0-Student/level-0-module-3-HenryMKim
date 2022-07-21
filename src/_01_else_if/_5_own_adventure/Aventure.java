@@ -13,9 +13,9 @@ public static void main(String[] args) {
 		String q2 = JOptionPane.showInputDialog(null, "You see a bowl of rice with a yummy egg on top. But there's a catch: the egg and rice sit on top of a box that says 'Totally free unsuspicious food.' Should you eat it?");
 	if(q2.equals("yes")) {
 		JOptionPane.showMessageDialog(null, "That egg was delicious!");
-		String q3 = JOptionPane.showInputDialog(null, "Now, you come across a steaming bowl of bibimbap! Whoever is making all of this food fo this, you almost caught them! But the question still remains: should you eat the bibimbap or not? ");
+		String q3 = JOptionPane.showInputDialog(null, "Now, you come across a steaming bowl of soup! Whoever is making all of this food fo this, you almost caught them! But the question still remains: should you eat the bibimbap or not? ");
 	if(q3.equals("yes")) {
-	JOptionPane.showMessageDialog(null, "Ouch! That bibimbap was piping hot! GAME OVER - burning");
+	JOptionPane.showMessageDialog(null, "Ouch! That soup was piping hot! GAME OVER - burning");
 	if(q3.equals("no")) {
 		JOptionPane.showInputDialog(null, "You skipped out on lunch. GAME OVER - starvation");
 	}
