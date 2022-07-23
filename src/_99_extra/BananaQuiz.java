@@ -8,8 +8,18 @@ public class BananaQuiz
 	
 	public static void main(String[] args)
 	{
-		//1. ask the user if they like bananas
+		//1. ask the user if they like bananas 
+		String i = JOptionPane.showInputDialog(null, "do you like bananas?");
 		//2. if they say no, 
+		if(i.equals("no")) {
+			JOptionPane.showMessageDialog(null, "you are crazy");
+		}
+		if(i.equals("yes")) {
+			String j = JOptionPane.showInputDialog(null, "what is your favorite hobby?");
+		
+		JOptionPane.showMessageDialog(null, j + " is better than bananas!");
+		}
+		}
 			//tell them they are crazy 
 			//and end quiz
 		//3. if they say yes
@@ -21,4 +31,4 @@ public class BananaQuiz
 	
 	}
 
-}
+
